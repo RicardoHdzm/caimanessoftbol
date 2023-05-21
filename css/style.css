@@ -51,7 +51,13 @@ div{
 }
 
 .about{
+	color: #111822 ;
 	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	background-color: whitesmoke;
+	background-image: url(../img/backgrounds/bg5.png);
 }
 
 
