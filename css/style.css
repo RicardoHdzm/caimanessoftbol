@@ -20,11 +20,10 @@ div{
 	font-size: medium;
 	color:#f2f2f2;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-
 }
 
 .navbar-nav>a{
-	color:#f2f2f2!important;
+	color:#f2f2f2;
 	font-size: small;
 	font-weight: bold;
 	transition: .5s;
@@ -34,7 +33,12 @@ div{
 	color:#bf0f35!important;
 	text-decoration: underline 2px;
 	text-underline-offset: 8px;
+}
 
+.activelink{
+	color:#bf0f35!important;
+	text-decoration: underline 2px;
+	text-underline-offset: 8px;
 }
 
 .home{
@@ -68,11 +72,6 @@ div{
 	font-size: 80px;
 	letter-spacing: 20px;
 	display: inline;
-}
-
-.yt2 h2{
-	font-family: Caiman;
-	letter-spacing: 20px;
 }
 
 .yt-prev{
@@ -219,13 +218,13 @@ h1{
 
 
 .sponsor-logo{
-	width: 140px;
+	width: 120px;
 	transition: .5s;
 
 }
 
 .sponsor-logo2{
-	height: 60px;
+	height: 80px;
 	transition: .5s;
 }
 
@@ -260,6 +259,16 @@ h1{
 	height: 80px;
 }
 
+.footer a{
+	color: white;
+	transition: .5s;
+}
+
+.footer a:hover{
+	color:#bf0f35!important;
+	text-decoration: none;
+}
+
 .align-items-center {
 	display: flex; 
 	align-items: center;  /*Aligns vertically center */
@@ -267,7 +276,7 @@ h1{
 }
 
 .navicon{
-	height: 60px;
+	height: 75px;
 }
 
 .arrow-size{
@@ -526,6 +535,10 @@ tr{
 	.sptfy h2{
 		font-size: large;
 	}
+
+	.yt h2{
+		font-size: large;
+	}
 }
 
 .table{
@@ -537,8 +550,8 @@ tr{
 .standing-table{
 	background-color: #f1f1f1!important;
 	color: #111822;
-	font-weight: bold;
-	font-size: medium;
+	font-weight: bolder;
+	font-size: large;
 }
 .caiman-place{
 	background-color: #d11847!important;
