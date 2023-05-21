@@ -141,6 +141,9 @@ div{
 	border-color: #0f161f;
 	height: fit-content;
 	font-size: small;
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url(../img/backgrounds/footer.png);
 }
 
 .red{
