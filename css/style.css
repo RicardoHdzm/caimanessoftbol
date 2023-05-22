@@ -39,7 +39,8 @@ div{
 }
 
 .activelink{
-	color:#bf0f35!important;
+	font-weight: bold!important;
+	color: #bf0f35!important;
 	transform: none!important;
 }
 
@@ -215,7 +216,7 @@ h1{
 }
 
 .logo-home{
-	width: 50%;
+	width: 70%;
 }
 .gallery h1{
 	font-size: 80px;
