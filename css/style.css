@@ -5,6 +5,7 @@ html, body{
 	scroll-behavior: smooth;
 }
 
+
 div{
 	margin: 0!important;
 	padding: 0!important;
@@ -277,6 +278,7 @@ h1{
 .footer a:hover{
 	color:#bf0f35!important;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .align-items-center {
